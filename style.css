@@ -16,13 +16,18 @@ body {
 }
 
 .title-1 {
-  font-weight: 400;
-  color: Gray;
+  margin-top: 60px;
+  font-weight: lighter;
+  color: rgb(192, 190, 190);
 }
-
+.title-2 {
+  font-weight: 600;
+}
 .sub-title {
   font-weight: 200;
   color: gray;
+  margin-top: 20px;
+  font-size: 0.7rem;
 }
 
 .container {
@@ -30,48 +35,108 @@ body {
   flex-wrap: wrap;
 }
 .tile-1 {
-  width: 250px;
-  margin: 170px 0px 0px 80px;
+  width: 290px;
+  margin: 160px 0px 0px 150px;
   color: hsl(234, 12%, 34%);
-  border-top: 3px solid hsl(180, 62%, 55%);
+  border-top: 4px solid hsl(180, 62%, 55%);
   border-radius: 5px;
-  background-color: hsl(0, 0%, 98%);
+  background-color: white;
+  box-shadow: 0 5px 5px 5px hsl(180, 11%, 83%);
 }
 
 .title-tile-1 {
-  font-size: 0.9rem;
-  padding-left: 20px;
+  font-size: 1.1rem;
+  padding-left: 30px;
   padding-top: 25px;
 }
 .tile-des-1 {
   color: hsl(229, 6%, 66%);
-  font-size: 0.6rem;
-  padding-left: 20px;
+  font-size: 0.7rem;
+  padding-left: 30px;
   padding-top: 10px;
 }
 .img-1 {
-  margin-top: 30px;
-  margin-left: 180px;
+  margin: 30px 0 20px 210px;
 }
 
+.container-center {
+  align-content: center;
+}
 .tile-2 {
-  width: 250px;
-
-  border: 1px solid red;
+  width: 290px;
+  margin: 50px 0 0 40px;
+  color: hsl(234, 12%, 34%);
+  border-top: 4px solid hsl(0, 78%, 62%);
+  border-radius: 5px;
+  box-shadow: 0 5px 5px 5px hsl(180, 11%, 83%);
   background-color: white;
   font-size: 0.7rem;
 }
-
-.tile-3 {
-  width: 250px;
-  border: 1px solid orange;
-  background-color: white;
+.title-tile-2 {
+  font-size: 1.1rem;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.tile-des-2 {
+  color: hsl(229, 6%, 66%);
   font-size: 0.7rem;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.img-2 {
+  margin: 30px 0 20px 210px;
+}
+.tile-3 {
+  width: 300px;
+  margin: 50px 0 0 40px;
+  color: hsl(234, 12%, 34%);
+  border-top: 4px solid hsl(34, 97%, 64%);
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 5px 5px 5px hsl(180, 11%, 83%);
+  font-size: 0.7rem;
+}
+.title-tile-3 {
+  font-size: 1.1rem;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.tile-des-3 {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.7rem;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.img-3 {
+  margin: 30px 0 20px 210px;
 }
 
 .tile-4 {
-  width: 250px;
-  border: 1px solid blue;
+  width: 300px;
+  margin: 160px 0px 0 30px;
+  color: hsl(234, 12%, 34%);
+  border-top: 4px solid hsl(212, 86%, 64%);
+  border-radius: 5px;
   background-color: white;
+  box-shadow: 0 5px 5px 5px hsl(180, 11%, 83%);
   font-size: 0.7rem;
+}
+.title-tile-4 {
+  font-size: 1.1rem;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+.tile-des-4 {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.7rem;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+.img-4 {
+  margin: 30px 0 20px 210px;
+}
+
+.attribution {
+  margin-top: 50px;
+  text-align: center;
 }
